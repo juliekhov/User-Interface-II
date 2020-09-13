@@ -1,11 +1,11 @@
 /* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@500&display=swap');
 
 html {
     box-sizing: border-box;
     font-size: 16px;
     margin: 0 9rem;
     text-align:center;
-    font-family: 'Tillana', cursive;
   }
   
   *, *:before, *:after {
@@ -38,6 +38,18 @@ html {
     text-shadow: 1px 1px black;
     font-size:30px;
     width:1200px;
+  }
+
+  .my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: zoomInUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+  }
+
+  body, header, footer {
+    font-family: 'Tillana', cursive;
   }
   
   header nav a {
