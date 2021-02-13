@@ -1,11 +1,11 @@
 /* Add CSS styling here */
-@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@500&display=swap');
 
 html {
     box-sizing: border-box;
     font-size: 16px;
     margin: 0 9rem;
     text-align:center;
+    font-family: 'Tillana', cursive;
   }
   
   *, *:before, *:after {
@@ -34,31 +34,19 @@ html {
     text-align:right;
     background-image:url('https://assets.codepen.io/3163723/alex-wong-l5Tzv1alcps-unsplash.jpg');
     color:white;
-    font-family: 'Tillana', cursive;
+    font-family: 'Pragati Narrow', sans-serif;
     text-shadow: 1px 1px black;
-    font-size:30px;
+    font-size:30px;<header class="top">Welcome to Julie's Portfolio</header>
     width:1200px;
-  }
-
-  .my-element {
-    display: inline-block;
-    margin: 0 0.5rem;
-  
-    animation: zoomInUp; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 3s; /* don't forget to set a duration! */
-  }
-
-  body, header, footer {
-    font-family: 'Tillana', cursive;
   }
   
   header nav a {
-      padding:8px;
+      padding:0 30px;
       color:white;
       text-decoration:none;
       background-color:rgb(87, 78, 207);
       border:solid black 2px;
-      margin:30px 25px;
+      margin: 30px 30px;
   }
 
   nav a:hover {
@@ -72,14 +60,14 @@ html {
     opacity:0.9;
   }
   
-  .stretch {
+  .stack {
     width:800px;
     height: auto;
     border-radius:15px;
     margin:2px 20px;
   }
   
-  .welcome {
+  .about {
     height:800px;
     width:800px;
     height: auto;
@@ -98,15 +86,6 @@ html {
     align-items:stretch;
   }
   
-  .developer{
-    height:400px;
-    width:1500px;
-  }
-  
-  .coding{
-    height:400px;
-    width:1500px;
-  }
   
   .image1{
     margin-left: 20px;
@@ -148,7 +127,7 @@ html {
      height:400px;
      width:230px;
   }
-  
+
   .bottom {
     background-color:grey;
     padding:8px 50px;

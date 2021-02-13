@@ -1,11 +1,11 @@
 /* Add CSS styling here */
-@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@500&display=swap');
 
 html {
     box-sizing: border-box;
     font-size: 16px;
     margin: 0 9rem;
     text-align:center;
+    font-family: 'Tillana', cursive;
   }
   
   *, *:before, *:after {
@@ -34,31 +34,20 @@ html {
     text-align:right;
     background-image:url('https://assets.codepen.io/3163723/alex-wong-l5Tzv1alcps-unsplash.jpg');
     color:white;
-    font-family: 'Tillana', cursive;
+    font-family: 'Pragati Narrow', sans-serif;
     text-shadow: 1px 1px black;
-    font-size:30px;
+    font-size:30px;<header class="top">Welcome to Julie's Portfolio</header>
     width:1200px;
-  }
-
-  .my-element {
-    display: inline-block;
-    margin: 0 0.5rem;
-  
-    animation: zoomInUp; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 3s; /* don't forget to set a duration! */
-  }
-
-  body, header, footer {
-    font-family: 'Tillana', cursive;
+    align-content:center;
   }
   
   header nav a {
-      padding:8px;
+      padding:0 30px;
       color:white;
       text-decoration:none;
       background-color:rgb(87, 78, 207);
       border:solid black 2px;
-      margin:30px 25px;
+      margin:30 30px;
   }
 
   nav a:hover {
@@ -72,23 +61,22 @@ html {
     opacity:0.9;
   }
   
-  .stretch {
-    width:800px;
-    height: auto;
+  .contact {
+    height:350px;
+    width:600px;
     border-radius:15px;
     margin:2px 20px;
   }
   
-  .welcome {
-    height:800px;
-    width:800px;
-    height: auto;
+  .name {
+    height:350px;
+    width:600px;
     border-radius:15px;
     margin:2px 20px;
   }
   
   .section2 {
-     padding: 5px 10px 0px;
+    padding:5px 10px 0px;
   }
   
   .gallery {
@@ -98,12 +86,12 @@ html {
     align-items:stretch;
   }
   
-  .developer{
+  .neoelectronics{
     height:400px;
     width:1500px;
   }
   
-  .coding{
+  .rentarobot{
     height:400px;
     width:1500px;
   }
@@ -112,12 +100,12 @@ html {
     margin-left: 20px;
     height: 1000%;
     width: 1500%;
-    margin-bottom:0;
-    flex-grow:4;
+    margin-bottom:40px;
+    flex-grow:3;
   }
   
   .image2{
-    margin-left: 20px;
+    margin-left: 60px;
     height: 1000%;
     width: 1500%;
     margin-bottom:60px;
@@ -125,30 +113,6 @@ html {
     
   }
 
-  .image5{
-    height:400px;
-    width:230px;
-    align-self:flex-end;
-  }
-  
-  .image6{
-    margin-left: 20px;
-    height:400px;
-    width:230px;
-  }
-  
-  .image7{
-    margin-left: 20px;
-    height:400px;
-    width:230px;
-  }
-  
-  .image8{
-     margin-left: 20px;
-     height:400px;
-     width:230px;
-  }
-  
   .bottom {
     background-color:grey;
     padding:8px 50px;
